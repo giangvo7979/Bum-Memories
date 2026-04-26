@@ -78,6 +78,7 @@ A place where:
     "date": "28/05/2024",
     "story": "On May 28th, 2024, my mother and..."
 }
+```
 
 ---
 
