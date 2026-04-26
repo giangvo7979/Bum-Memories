@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bum Memories</title>
+<link rel="icon" type="image/x-icon" href="https://aggregator.walrus-mainnet.walrus.space/v1/blobs/xkHmCuDDyUNFdqFyluAejpKBsf25Be153O9MTNff0TY">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="desktop">
+  <div class="stars" id="stars"></div>
+  <div class="desktop-icons" id="desktopIcons"></div>
+  <div class="taskbar">
+    <div class="app-logo">Bum Memories</div>
+    <div class="taskbar-clock" id="clock"></div>
+  </div>
+</div>
+
+<div class="mascot-backdrop" id="mascotBackdrop" onclick="closeMascot()"></div>
+
+<div class="mascot-panel" id="mascotPanel">
+  <div class="mascot-bubble">
+    <div class="bubble-header">
+      <span class="bubble-date" id="mascotDate"></span>
+      <button class="btn-sound" id="btnSound" onclick="toggleSound()">🔊</button>
+      <button class="bubble-close" onclick="closeMascot()">✕</button>
+    </div>
+    <div class="bubble-story" id="speechBubble">
+      <div class="typing-dots"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+  <img class="mascot-img" src="https://aggregator.walrus-mainnet.walrus.space/v1/blobs/6zddPgDQt8M8ydxKZA_ANXnBeBjMFwLaMnNN5LN9gNY" alt="Walrus" onclick="closeMascot()">
+</div>
+
+<div class="load-error" id="loadError">
+  ⚠️ Check Blob ID
+</div>
+<div class="toast" id="toast"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
